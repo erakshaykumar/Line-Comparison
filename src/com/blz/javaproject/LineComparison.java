@@ -34,10 +34,10 @@ public class LineComparison {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line Comparison Computation ");
 		
-		double lineOneLength = lineValues();
+		double lineOneLength = LineComparison.lineValues();
 			System.out.println("Length Of Line1 is: " + lineOneLength);
 		
-		double lineTwoLength = lineValues();
+		double lineTwoLength = LineComparison.lineValues();
 			System.out.println("Length Of Line2 is: " + lineTwoLength);
 		
 			checkEquality(lineOneLength , lineTwoLength);
